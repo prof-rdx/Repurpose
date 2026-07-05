@@ -24,7 +24,7 @@ sequenceDiagram
     autonumber
     actor User as Content Creator
     participant Web as Web App (TanStack Start)
-    database DB as Supabase Database
+    participant DB as Supabase Database
     participant Worker as Background Worker
     participant AI as Lovable AI Gateway (Gemini)
 
